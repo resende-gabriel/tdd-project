@@ -1,0 +1,3 @@
+Testes funcionais são mais focados nos usos do sistema por usuários, testando fluxos mais complexos. Testes de unidade são mais focados nos métodos em si, testando partes do sistema individualmente.
+
+Testes funcionais são mais caros, por envolverem mais partes do sistema e fluxos maiores, enquanto testes de unidade são mais baratos e rápidos, por terem menor complexidade em relação aos funcionais.

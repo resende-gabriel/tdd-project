@@ -1,0 +1,13 @@
+O processo TDD (test driven development) consiste em escrever os testes antes do código resumidamente. Em um fluxo resumido, temos:
+1. Escrever um teste
+2. Verificar se o teste passa
+    2.1 Caso o teste não passe, escrever o código para que passe
+    2.2 Caso o teste passe, verificar se é necessário refatorar
+        2.2.1 Refatorar e voltar ao passo 2
+
+Utilizando testes funcionais e testes de unidade deve ser seguido o seguinte fluxo:
+1. Escrever um teste funcional
+2. Verificar se o teste passa
+    2.1 Caso o teste não passe, escrever o código para que passe, seguindo o fluxo anterior
+    2.1 Caso o teste passe, verificar se é necessário refatorar
+        2.2.1 Refatorar começando pelo teste de unidade, e seguir o fluxo novamente a partir da etapa de testar
